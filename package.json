@@ -1,0 +1,23 @@
+{
+  "name": "blueberry",
+  "version": "1.0.0",
+  "description": "Linux ========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1m4nim/blueberry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1m4nim/blueberry/issues"
+  },
+  "homepage": "https://github.com/1m4nim/blueberry#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}
