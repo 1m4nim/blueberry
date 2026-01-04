@@ -89,6 +89,7 @@ console.log(`secretは${secret}です`);
 //   i++;
 // }//無限ループを止める
 
+<<<<<<< HEAD
 let i = 1;
 while (i <= 100) {
   i++;
@@ -104,3 +105,20 @@ while (i <= 100) {
   console.log(i);
 }
 >>>>>>> 52bfa30 (while文のループ)
+=======
+// let i = 1;
+// while (i <= 100) {
+//   i++;
+//   if (i % 2 === 1) {
+//     //偶数のときだけ
+//     continue; //whileに戻る
+//   }
+//   console.log(i);
+// }
+
+let sum = 0;
+for (let i: number = 1; i <= 100; i++) {
+  sum += i;
+}
+console.log(sum); //5050
+>>>>>>> 24a37e9 (2026/01/04 for文)
