@@ -1,7 +1,6 @@
-const message:string="Hello World";
+const message: string = "Hello World";
 
-
-console.log(message)
+console.log(message);
 
 //2.3プリミティブ型
 // const width1 = 5;
@@ -42,12 +41,10 @@ console.log(message)
 //   rl.close();
 // });
 
-<<<<<<< HEAD
-const secret = process.env.SECRET ?? "default";
-console.log(`secretは${secret}です`);
+//const secret = process.env.SECRET ?? "default";
+//console.log(`secretは${secret}です`);
 // SECRET=Hello node dist/index.jsで変わる
 
-=======
 // const secret = process.env.SECRET ?? "default";
 // console.log(`secretは${secret}です`);
 // // SECRET=Hello node dist/index.jsで変わる
@@ -89,23 +86,6 @@ console.log(`secretは${secret}です`);
 //   i++;
 // }//無限ループを止める
 
-<<<<<<< HEAD
-let i = 1;
-while (i <= 100) {
-  i++;
-  if (i % 2 === 1) {
-    //偶数のときだけ
-    continue; //whileに戻る
-  }
-<<<<<<< HEAD
-  rl.close();
-});
->>>>>>> 31267d5 (2026/01/04 switch文)
-=======
-  console.log(i);
-}
->>>>>>> 52bfa30 (while文のループ)
-=======
 // let i = 1;
 // while (i <= 100) {
 //   i++;
@@ -121,4 +101,3 @@ for (let i: number = 1; i <= 100; i++) {
   sum += i;
 }
 console.log(sum); //5050
->>>>>>> 24a37e9 (2026/01/04 for文)
