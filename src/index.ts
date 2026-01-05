@@ -115,16 +115,31 @@
 // };
 
 // const input: string | undefined = undefined;
-// const name = input ? input : "名無し";
+// const name = input ? input : "名無し";//要件式？真のときの式：偽のときの式
 // const user = {
 //   name: name,
 //   age: 20,
 // };
 
-const input: string | undefined = undefined;
-const name = input ?? "名無し";
-const user = {
-  name: name,
-  age: 20,
+// const input: string | undefined = undefined;
+// const name = input ?? "名無し";
+// const user = {
+//   name: name,
+//   age: 20,
+// };
+// console.log(user);
+
+const obj = {
+  foo: 123,
+  "foo bar": -500,
+  "↑↓↑↓": "",
 };
-console.log(user);
+console.log(obj.foo);
+console.log(obj["foo bar"]);
+
+const object = {
+  1: "one",
+  2: "two",
+};
+console.log(object["1"]);
+console.log(object["2"]);
