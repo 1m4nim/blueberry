@@ -89,9 +89,4 @@ To use DroidCam with Pipewire ([Source](https://gitlab.freedesktop.org/pipewire/
 * Go to the Input Devices tab
 * Check which VU meter reacts to the phone's audio input (eg. Built-in Audio Pro 1), this is the desired audio input device.
 * Inside pavucontrol you can now set this device as default input or choose it as the input device for individual apps etc.
-# react-todo-app
-# professional-typescript
-# todo-list-ts
-# blueberry
-# blueberry
 # blueberry
