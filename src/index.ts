@@ -144,23 +144,33 @@
 // console.log(obj["1"]);
 // console.log(obj["2"]);
 
-const user = {
-  name: "minami",
-  age: 24,
-};
-user.age = 25;
-console.log(user.age);
+// const user = {
+//   name: "minami",
+//   age: 24,
+// };
+// user.age = 25;
+// console.log(user.age);
 
-import { createInterface } from "node:readline";
-const rl = createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-const message = {
-  good: "0以上の数値が入力されました",
-  bad: "負の数値を入力しないでください",
+// import { createInterface } from "node:readline";
+// const rl = createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+// const message = {
+//   good: "0以上の数値が入力されました",
+//   bad: "負の数値を入力しないでください",
+// };
+// rl.question("数値を入力してください：", (line: string) => {
+//   const num = Number(line);
+//   console.log(message[num >= 0 ? "good" : "bad"]);
+// });
+
+const obj1 = {
+  bar: 456,
+  baz: 789,
 };
-rl.question("数値を入力してください：", (line: string) => {
-  const num = Number(line);
-  console.log(message[num >= 0 ? "good" : "bad"]);
-});
+const obj2 = {
+  foo: 123,
+  ...obj1,
+};
+console.log(obj2);
