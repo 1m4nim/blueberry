@@ -1,6 +1,6 @@
-const message: string = "Hello World";
+// const message: string = "Hello World";
 
-console.log(message);
+// console.log(message);
 
 //2.3プリミティブ型
 // const width1 = 5;
@@ -96,8 +96,35 @@ console.log(message);
 //   console.log(i);
 // }
 
-let sum = 0;
-for (let i: number = 1; i <= 100; i++) {
-  sum += i;
-}
-console.log(sum); //5050
+// let sum = 0;
+// for (let i: number = 1; i <= 100; i++) {
+//   sum += i;
+// }
+// console.log(sum); //5050
+
+// const obj = {
+//   foo: 555,
+//   bar: "文字列",
+// };
+// console.log(obj.foo);
+// console.log(obj.bar);
+
+// const user = {
+//   name: input ? input : "名無し",
+//   age: 20,
+// };
+
+// const input: string | undefined = undefined;
+// const name = input ? input : "名無し";
+// const user = {
+//   name: name,
+//   age: 20,
+// };
+
+const input: string | undefined = undefined;
+const name = input ?? "名無し";
+const user = {
+  name: name,
+  age: 20,
+};
+console.log(user);
